@@ -29,32 +29,46 @@ website_pageviews_clean,order_item_refunds_clean) to dimension tables (products_
 funnel conversion rates, gross profit margins, and average order value (AOV).
 
 ## Key Insights
-Desktop Revenue Dominance: Desktop users drive $1.67M in revenue across 27,805 orders, serving as the core conversion engine compared to mobile's $0.27M.
+** Executive Baseline
+* Solid Financial Core: The e-commerce business generated $1.94M in total revenue across 32.31K orders, achieving an impressive 62.74% gross profit margin and an Average Order Value (AOV) of $59.99.  
+** Product Performance & Revenue Drivers
+* Profit Concentration: The Original Mr. Fuzzy is the primary profit driver, generating $7.38M in gross profit across 24,226 units sold with a 61.01% profit margin.
+* Refund Leakage: The Original Mr. Fuzzy also accounts for the highest absolute refund losses at $61,837.63 (5.11% return rate), whereas The Birthday Sugar Panda exhibits the highest overall refund rate at 6.04%.   
+** Marketing & Acquisition Channel Efficiency
+* Channel Volume Dominance: Paid search (gsearch) is the primary acquisition driver, generating $12.76M in revenue across 316,035 total sessions and 21,333 orders (6.75% conversion rate).
+* Conversion Differences: Organic/Direct traffic (Not Available) achieves the highest overall conversion rate at 7.34%, while social channel traffic (socialbook) lags severely at a 3.21% conversion rate and $22.25K in total revenue.
+**Funnel Bottlenecks & Conversion Rates
+* Top-of-Funnel Drop-Off: Out of 472.87K total landing sessions, only 210.21K users navigate to product pages, resulting in a 44.45% Product Discovery Rate and an immediate drop-off of over 55% of site traffic.
+* Severe Checkout Abandonment: The highest mid-funnel loss occurs between cart addition and order completion, where the checkout abandonment rate reaches 65.97% as cart sessions drop from 94.95K to 32.31K final orders.
+* High Payment Intent: Users who reach the final checkout stages convert effectively, achieving a 62.07% Billing Completion Rate.
+** Customer Retention Dynamics
+* Heavy Acquisition vs. Low Retention: Out of 394.31K total unique visitors, 87% (343.05K) are one-time visitors who never return, leading to a low 13.00% Repeat Customer Rate.
+* Revenue Impact of Repeat Buyers: The 51.27K repeat users generate $0.58M (29.97%) of total revenue, demonstrating that repeat buyers carry significantly higher long-term lifetime value.
+** Device Platform & Refund Trends
+* Desktop Conversion Dominance: Desktop users represent the core revenue engine, generating $1.67M in revenue across 27,805 orders compared to mobile's $0.27M across 4,508 orders.
+* Matched Device Return Rates: Return rates remain tightly aligned across platforms (5.30% for desktop vs. 5.50% for mobile), ruling out mobile-specific UI issues as a driver for product returns.
+* Improving Multi-Year Refund Trend: Historical tracking shows a positive long-term decline in unit return rates, dropping from an early peak of 6.88% in 2012 to an all-time low of 4.23% in 2015. 
 
-Top-of-Funnel Drop-Off: Out of 472.87K total sessions, only 108.18K users advance past the landing page to view specific products (44.45% product discovery rate).
-
-Customer Retention Gap: Out of 394.3K unique users, 87% (343.05K) are one-time purchasers, leaving a massive opportunity for email remarketing to lift the 13% repeat rate.
-
-Improving Refund Trends: Multi-year tracking reveals a positive downward trend in unit refund rates from an early peak of 6.88% (2012) down to an all-time low of 4.23% (2015).
-
-## Data Transformation
-![Fact_ComplaintTable](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Fact_Complaint%20Table.png)
-![Dim_ChannelTable](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Channel.png)
-![Dim_LocationTable](/Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Location.png)
-![Dim_ProductTable](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Product.png)
-![Dim_IssueTable](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Issue.png)
-![Dim_DateTable](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Date.png)
-![Dim_ResponseTable](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Response.png)
+## SQL Queries
+![Landing_Page](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Fact_Complaint%20Table.png)
+![Executive_Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Channel.png)
+![Product_Performance](/Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Location.png)
+![Website_Funnel&Conversion_Breakdown](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Product.png)
+![Marketing&Acquisition_Channel](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Issue.png)
+![Customer_Retention](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Date.png)
+![Device&Refunds](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Response.png)
 
 ## Data Modeling
 ![Executive Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Data%20Model.png)
 
 ## Dashboard
-![Executive Summary](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Executive%20Summary.png)
-![Product & Issue Insight](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Product%20%26%20Issue%20Insight.png)
-![Response Insight](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Response%20Insight.png)
-![Deeper Analysis 1](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Deeper%20Analysis%201.png)
-![Deeper Analysis 2](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Deeper%20Analysis%202.png)
+![Landing_Page](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Fact_Complaint%20Table.png)
+![Executive_Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Channel.png)
+![Product_Performance](/Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Location.png)
+![Website_Funnel&Conversion_Breakdown](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Product.png)
+![Marketing&Acquisition_Channel](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Issue.png)
+![Customer_Retention](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Date.png)
+![Device&Refunds](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Response.png)
 
 ## PowerBI 
 ![Dashboard](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Financial%20Complaint%20Dashboard.pbix)
