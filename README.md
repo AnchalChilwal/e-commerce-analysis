@@ -29,22 +29,22 @@ website_pageviews_clean,order_item_refunds_clean) to dimension tables (products_
 funnel conversion rates, gross profit margins, and average order value (AOV).
 
 ## Key Insights
-** Executive Baseline
-* Solid Financial Core: The e-commerce business generated $1.94M in total revenue across 32.31K orders, achieving an impressive 62.74% gross profit margin and an Average Order Value (AOV) of $59.99.  
-** Product Performance & Revenue Drivers
+### Executive Baseline
+* Solid Financial Core: The e-commerce business generated $1.94M in total revenue across 32.31K orders, achieving an impressive 62.74% gross profit margin and an Average Order Value (AOV) of $59.99.
+### Product Performance & Revenue Drivers
 * Profit Concentration: The Original Mr. Fuzzy is the primary profit driver, generating $7.38M in gross profit across 24,226 units sold with a 61.01% profit margin.
 * Refund Leakage: The Original Mr. Fuzzy also accounts for the highest absolute refund losses at $61,837.63 (5.11% return rate), whereas The Birthday Sugar Panda exhibits the highest overall refund rate at 6.04%.   
-** Marketing & Acquisition Channel Efficiency
+### Marketing & Acquisition Channel Efficiency
 * Channel Volume Dominance: Paid search (gsearch) is the primary acquisition driver, generating $12.76M in revenue across 316,035 total sessions and 21,333 orders (6.75% conversion rate).
 * Conversion Differences: Organic/Direct traffic (Not Available) achieves the highest overall conversion rate at 7.34%, while social channel traffic (socialbook) lags severely at a 3.21% conversion rate and $22.25K in total revenue.
-**Funnel Bottlenecks & Conversion Rates
+### Funnel Bottlenecks & Conversion Rates
 * Top-of-Funnel Drop-Off: Out of 472.87K total landing sessions, only 210.21K users navigate to product pages, resulting in a 44.45% Product Discovery Rate and an immediate drop-off of over 55% of site traffic.
 * Severe Checkout Abandonment: The highest mid-funnel loss occurs between cart addition and order completion, where the checkout abandonment rate reaches 65.97% as cart sessions drop from 94.95K to 32.31K final orders.
 * High Payment Intent: Users who reach the final checkout stages convert effectively, achieving a 62.07% Billing Completion Rate.
-** Customer Retention Dynamics
+### Customer Retention Dynamics
 * Heavy Acquisition vs. Low Retention: Out of 394.31K total unique visitors, 87% (343.05K) are one-time visitors who never return, leading to a low 13.00% Repeat Customer Rate.
 * Revenue Impact of Repeat Buyers: The 51.27K repeat users generate $0.58M (29.97%) of total revenue, demonstrating that repeat buyers carry significantly higher long-term lifetime value.
-** Device Platform & Refund Trends
+### Device Platform & Refund Trends
 * Desktop Conversion Dominance: Desktop users represent the core revenue engine, generating $1.67M in revenue across 27,805 orders compared to mobile's $0.27M across 4,508 orders.
 * Matched Device Return Rates: Return rates remain tightly aligned across platforms (5.30% for desktop vs. 5.50% for mobile), ruling out mobile-specific UI issues as a driver for product returns.
 * Improving Multi-Year Refund Trend: Historical tracking shows a positive long-term decline in unit return rates, dropping from an early peak of 6.88% in 2012 to an all-time low of 4.23% in 2015. 
