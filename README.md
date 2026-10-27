@@ -58,12 +58,13 @@ funnel conversion rates, gross profit margins, and average order value (AOV).
 ![Data_Analysis](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
 ## 🛢️ SQL Queries & Database Scripts
 
-* 🛠️ **Database Creation:** [`Database_Creation_01.sql`](./SQL%20Queries/(Database%20_Creation_01).sql)
-* 🧹 **Data Quality Assessment & Validation:** [`Data_cleaning.sql`](./SQL%20Queries/(Data%20_cleaning).sql)
-* 📋 **New Cleaned Tables:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-* 📥 **Inserting Data into Cleaned Tables:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-* ⚖️ **Row Count Reconciliation:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-* 📈 **Data Analysis Queries:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* 🛠️ **Database Creation:** [`(Database _Creation_01).sql`](./SQL%20Queries/(Database%20_Creation_01).sql)
+* 🧹 **Data Quality Assessment & Validation:** [`(Data _cleaning).sql`](./SQL%20Queries/(Data%20_cleaning).sql)
+* 📋 **New Cleaned Tables:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* 📥 **Inserting Data into Cleaned Tables:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* ⚖️ **Row Count Reconciliation:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* 📈 **Data Analysis Queries:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+
 
 ## Data Modeling
 ![Executive Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Data%20Model.png)
