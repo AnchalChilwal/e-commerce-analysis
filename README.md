@@ -49,25 +49,13 @@ funnel conversion rates, gross profit margins, and average order value (AOV).
 * Matched Device Return Rates: Return rates remain tightly aligned across platforms (5.30% for desktop vs. 5.50% for mobile), ruling out mobile-specific UI issues as a driver for product returns.
 * Improving Multi-Year Refund Trend: Historical tracking shows a positive long-term decline in unit return rates, dropping from an early peak of 6.88% in 2012 to an all-time low of 4.23% in 2015. 
 
-## SQL Queries
-![Database_Creation](e-commerce-analysis/SQL%20Queries/(Database%20_Creation_01).sql)
-![Data_Quality_Assessment_&_Validation](e-commerce-analysis/SQL%20Queries/(Data%20_cleaning).sql)
-![New_Cleaned_Tables](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
-![Inserting_data_in_cleaned_table](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
-![Row_Count_Reconciliation](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
-![Data_Analysis](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
 ## 🛢️ SQL Queries & Database Scripts
-
 * 🛠️ **Database Creation:** [`(Database _Creation_01).sql`](./SQL%20Queries/(Database%20_Creation_01).sql)
-* 🧹 **Data Quality Assessment & Validation:** [`(Data _cleaning).sql`](./SQL%20Queries/(Data%20_cleaning).sql)
-* 📋 **New Cleaned Tables:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-* 📥 **Inserting Data into Cleaned Tables:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-* ⚖️ **Row Count Reconciliation:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-* 📈 **Data Analysis Queries:** [`(01_Data _cleaning).sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
-
-
-## Data Modeling
-![Executive Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Data%20Model.png)
+* 🧹 **Data Quality Assessment & Validation:** [`(Data_Quality_Assessment_&_Validation_02).sql`](./SQL%20Queries/(Data_Quality_Assessment%20_%26%20_Validation_02.sql).sql)
+* 📋 **New Cleaned Tables:** [`(New_Cleaned_Table_03).sql`](./SQL%20Queries/New_Clean_Tables_03.sql)
+* 📥 **Inserting Data into Cleaned Tables:** [`(Inserting_Data_in_Cleaned_Tables_04).sql`](./SQL%20Queries/Inserting_data_in_cleaned_table_04.sql)
+* ⚖️ **Row Count Reconciliation:** [`(Row_Count_Reconciliation_05).sql`](./SQL%20Queries/Row_Count_Reconciliation_05.sql)
+* 📈 **Data Analysis Queries:** [`(Data_Analysis_06).sql`](./SQL%20Queries/Data_Analysis_06.sql)
 
 ## Dashboard
 ![Landing Page](./Dashboard/Landing%20Page(Page%201).png)
@@ -78,17 +66,12 @@ funnel conversion rates, gross profit margins, and average order value (AOV).
 ![Customer Retention](./Dashboard/Customer%20Retention(Page%206).png)
 ![Device & Refunds](./Dashboard/Device%20%26%20Refunds(Page%207).png)
 
-## PowerBI 
-![Dashboard](Financial%20Consumer%20Complaint%20Analysis/Dashboard/Financial%20Complaint%20Dashboard.pbix)
-
 ### Recommendations
-* Since **Managing an Account** is the top issue, banks should improve customer support workflows to reduce recurring complaints.
-* Focused should be on reducing complaints on California and other high‑volume states better branch training.
-* Since complaints peaked in 2022 and declined after 2023, institutions should analyze what drove the decline and reinforce those improvements.
-* Bank apps should be designed to provide easy account access while allowing customers to monitor all activity — including when, where, how, and who accessed their account — ensuring convenience without compromising security.
-* Customer support teams should receive regular training so they are well‑prepared to handle peak complaint periods effectively, ensuring consistent service quality even during high volumes.
-  
-
+* **Optimize Top-of-Funnel Landing Experience:** Address the **55.55%** initial visitor drop-off by refining page load speeds, implementing dynamic product carousels, showcasing key value propositions, and personalizing landing experiences based on incoming UTM referral channels.
+* **Streamline Checkout Flow to Combat Abandonment:** Reduce the **65.97%** cart-to-order abandonment rate by introducing guest checkout options, transparent upfront shipping costs, and 1-click digital wallet integrations (e.g., Apple Pay, Google Pay).
+* **Launch Automated Post-Purchase Email Remarketing:** Convert the **87%** one-time user base into repeat purchasers by deploying automated post-purchase email sequences, personalized cross-sell recommendations, and targeted loyalty incentives to scale customer lifetime value (LTV).
+* **Audit High-Refund Product Lines:** Conduct quality assurance and product description audits on items exhibiting elevated return rates (e.g., *The Birthday Sugar Panda* at **6.04%** and *The Original Mr. Fuzzy* at **$61.8K** total refund leakage) to set clear buyer expectations and protect gross profit margins.
+* **Reallocate Marketing Spend to High-ROI Channels:** Prioritize budget allocation toward search channels (`gsearch` and organic traffic) which drive superior conversion rates (**6.75%–7.34%**), while restructuring low-performing paid social strategies (`socialbook` at **3.21%** conversion).
   
 ## Author
 **ANCHAL CHILWAL**
