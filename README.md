@@ -50,8 +50,8 @@ funnel conversion rates, gross profit margins, and average order value (AOV).
 * Improving Multi-Year Refund Trend: Historical tracking shows a positive long-term decline in unit return rates, dropping from an early peak of 6.88% in 2012 to an all-time low of 4.23% in 2015. 
 
 ## 🛢️ SQL Queries & Database Scripts
-* 🛠️ **Database Creation:** [`(Database _Creation_01).sql`](./SQL%20Queries/(Database%20_Creation_01).sql)
-* 🧹 **Data Quality Assessment & Validation:** [`(Data_Quality_Assessment_&_Validation_02).sql`](./SQL%20Queries/(Data_Quality_Assessment%20_%26%20_Validation_02.sql).sql)
+* 🛠️ **Database Creation:** [`(Database _Creation_01).sql`](./SQL%20Queries/Database_Creation_01.sql)
+* 🧹 **Data Quality Assessment & Validation:** [`(Data_Quality_Assessment_&_Validation_02).sql`](./SQL%20Queries/Data_Quality_Assessment%20_%26%20_Validation_02.sql)
 * 📋 **New Cleaned Tables:** [`(New_Cleaned_Table_03).sql`](./SQL%20Queries/New_Clean_Tables_03.sql)
 * 📥 **Inserting Data into Cleaned Tables:** [`(Inserting_Data_in_Cleaned_Tables_04).sql`](./SQL%20Queries/Inserting_data_in_cleaned_table_04.sql)
 * ⚖️ **Row Count Reconciliation:** [`(Row_Count_Reconciliation_05).sql`](./SQL%20Queries/Row_Count_Reconciliation_05.sql)
