@@ -50,13 +50,20 @@ funnel conversion rates, gross profit margins, and average order value (AOV).
 * Improving Multi-Year Refund Trend: Historical tracking shows a positive long-term decline in unit return rates, dropping from an early peak of 6.88% in 2012 to an all-time low of 4.23% in 2015. 
 
 ## SQL Queries
-![Landing_Page](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Fact_Complaint%20Table.png)
-![Executive_Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Channel.png)
-![Product_Performance](/Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Location.png)
-![Website_Funnel&Conversion_Breakdown](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Product.png)
-![Marketing&Acquisition_Channel](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Issue.png)
-![Customer_Retention](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Date.png)
-![Device&Refunds](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Dim_Response.png)
+![Database_Creation](e-commerce-analysis/SQL%20Queries/(Database%20_Creation_01).sql)
+![Data_Quality_Assessment_&_Validation](e-commerce-analysis/SQL%20Queries/(Data%20_cleaning).sql)
+![New_Cleaned_Tables](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
+![Inserting_data_in_cleaned_table](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
+![Row_Count_Reconciliation](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
+![Data_Analysis](e-commerce-analysis/SQL%20Queries/(01_Data%20_cleaning).sql)
+## 🛢️ SQL Queries & Database Scripts
+
+* 🛠️ **Database Creation:** [`Database_Creation_01.sql`](./SQL%20Queries/(Database%20_Creation_01).sql)
+* 🧹 **Data Quality Assessment & Validation:** [`Data_cleaning.sql`](./SQL%20Queries/(Data%20_cleaning).sql)
+* 📋 **New Cleaned Tables:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* 📥 **Inserting Data into Cleaned Tables:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* ⚖️ **Row Count Reconciliation:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
+* 📈 **Data Analysis Queries:** [`01_Data_cleaning.sql`](./SQL%20Queries/(01_Data%20_cleaning).sql)
 
 ## Data Modeling
 ![Executive Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Data%20Model.png)
