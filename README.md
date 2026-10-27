@@ -62,14 +62,7 @@ funnel conversion rates, gross profit margins, and average order value (AOV).
 ![Executive Summary](Financial%20Consumer%20Complaint%20Analysis/Data%20Transformation%20Steps/Data%20Model.png)
 
 ## Dashboard
-![Landing_Page](e-commerce-analysis/blob/main/Dashboard/Landing%20Page(Page%201).png)
-![Executive_Summary](e-commerce-analysis/blob/main/Dashboard/Executive%20Summary(Page%202).png)
-![Product_Performance](e-commerce-analysis/blob/main/Dashboard/Product%20Performance(Page%203).png)
-![Marketing&Acquisition_Channel](e-commerce-analysis/blob/main/Dashboard/Marketing%20%26%20Acquisition%20Channel(Page%204).png)
-![Website_Funnel&Conversion_Breakdown](e-commerce-analysis/blob/main/Dashboard/Website%20Funnel%20%26%20Conversion%20Breakdown(Page%205).png)
-![Customer_Retention](e-commerce-analysis/blob/main/Dashboard/Customer%20Retention(Page%206).png)
-![Device&Refunds](e-commerce-analysis/blob/main/Dashboard/Device%20%26%20Refunds(Page%207).png)
-![Landing Page](./Dashboard/Landing%20Page(Page%201).jpg)
+![Landing Page](./Dashboard/Landing%20Page(Page%201).png)
 ![Executive Summary](./Dashboard/Executive%20Summary(Page%202).png)
 ![Product Performance](./Dashboard/Product%20Performance(Page%203).png)
 ![Marketing & Acquisition Channel](./Dashboard/Marketing%20%26%20Acquisition%20Channel(Page%204).png)
