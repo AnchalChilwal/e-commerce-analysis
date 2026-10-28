@@ -15,9 +15,8 @@ website sessions and pageviews by user, as well as their orders and returns. Per
 measuring and testing website conversion performance,and understanding the impact of new product launches.
 
 ## Tools 
-* SQL Server (T-SQL)
+* SQL Server 
 * Power BI
-* Power Query
 * DAX
 
 ## Methods
